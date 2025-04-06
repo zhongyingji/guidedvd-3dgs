@@ -2,7 +2,7 @@
 
 <a href='https://arxiv.org/abs/2503.05082'><img src='https://img.shields.io/badge/arXiv-2503.05082-b31b1b.svg'></a> &nbsp; <a href='https://zhongyingji.github.io/guidevd-3dgs'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  
 
-This repository contains the code release for the CVPR 2025 project
+This repository contains the code release for the CVPR 2025 (Highlight) project
 > [**Taming Video Diffusion Prior with Scene-Grounding Guidance for 3D Gaussian Splatting from Sparse Inputs**](hhttps://arxiv.org/abs/2503.05082),  
 > Yingji Zhong, Zhihao Li, Dave Zhenyu Chen, Lanqing Hong, and Dan Xu  
 > Computer Vision and Pattern Recognition (CVPR), 2025
