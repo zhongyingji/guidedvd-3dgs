@@ -1,0 +1,9 @@
+.DS_Store
+*.pyc
+.vscode
+output
+projected_dir*
+dust3r_results*
+compare_dir*
+dataset
+
