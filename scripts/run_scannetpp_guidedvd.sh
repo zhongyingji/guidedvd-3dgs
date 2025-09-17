@@ -12,7 +12,7 @@ for dataset in "${datasets[@]}"; do
 done
 
 for i in ${!datasets[@]}; do
-    dataset="dataset/scannetpp_sparse/${datasets[$i]}"
+    dataset="dataset/scannetpp/${datasets[$i]}"
     workspace=${workspaces[$i]}
     
     echo "Processing dataset: $dataset with workspace: $workspace"

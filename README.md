@@ -4,7 +4,7 @@
 
 This repository contains the code release for the CVPR 2025 (Highlight) project 
 > [**Taming Video Diffusion Prior with Scene-Grounding Guidance for 3D Gaussian Splatting from Sparse Inputs**](hhttps://arxiv.org/abs/2503.05082),  
-> Yingji Zhong, Zhihao Li, Dave Zhenyu Chen, Lanqing Hong, and Dan Xu  
+> [Yingji Zhong](https://github.com/zhongyingji), [Zhihao Li](https://scholar.google.com/citations?user=4cuefJ0AAAAJ&hl=en), [Dave Zhenyu Chen](https://daveredrum.github.io/), [Lanqing Hong](https://racheltechie.github.io/), [Dan Xu](https://www.danxurgb.net/)  
 > Computer Vision and Pattern Recognition (CVPR), 2025
 
 <br/>
@@ -51,7 +51,7 @@ We convert the camara data into colmap format.
 # Replace the path in the following files. 
 
 python tools/replica_to_colmap.py
-python tools/scannetpp_to_colamp.py
+python tools/scannetpp_to_colmap.py
 ```
 After the conversion, there should be a `sparse/0/` directory under each scene directory, e.g., `dataset/Replica/office_3/Sequence_1/sparse/0/`. 
 
@@ -87,7 +87,7 @@ bash scripts/run_scannetpp_guidedvd.sh scannetpp_guidedvd 0,1
 ```
 We use two gpus to train a guidedvd 3DGS model, one for running the video diffusion model, while the other for optimizing the 3DGS. **The peak memory of the gpu running the video diffusion model will reach 32G**. On V100 GPUS, training one scene will typically take 3-4 hours. If your GPU memory is less than 32G, make the resolution smaller in `train_guidedvd.py` (L97-98, L110-111). 
 
-After the training has completed, there are many visualization results provided. For example, under the directory of `replica_guidedvd/office_3/`: 
+After the training has completed, there are many visualization results provided. For example, under the directory of `output/replica_guidedvd/office_3/`: 
 ```
 define_traj*/ : the renderings of sampled poses around each input view
 vd/train_iter*/: 
