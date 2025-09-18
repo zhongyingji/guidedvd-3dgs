@@ -99,7 +99,7 @@ vd/pred_x0/train_iter*/: generated sequence from each ddim step
 
 We provide the example results [here](./assets/results/). Note that in the paper, we report the lpips with alexnet, and normalize the input rgb to [-1, 1]. 
 
-NOTE: we provide another way of training a slighly better model on the Replica dataset. Please refer to [here](./assets/replica.md) if you are interested in it. 
+NOTE: we provide another way of training a slightly better model on the Replica dataset ([here](./assets/replica.md)) and the ScanNet++ dataset ([here](./assets/scannetpp.md)) respectively. 
 
 
 ## 📚 Citation

@@ -5,7 +5,7 @@ Beside initialization, we observe that the DUSt3R point cloud can also provide t
 
 After obtaining the DUSt3R point cloud, run the following script: 
 ```bash
-python scripts/get_replica/dust3r_project_2d.py
+python scripts/get_replica_dust3r_project_2d.py
 ```
 Then there should be a directory `projected_dir/` containing projected images and masks of all scenes. 
 
